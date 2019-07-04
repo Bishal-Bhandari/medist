@@ -1,0 +1,165 @@
+/*color var*/
+:root {
+  --nav-link:#073566;
+  --section-bg:#333;
+  --text-color:#666;
+  --signin-color:#46c3be;
+  --signup-color:#cd5fda;
+  --btn-bg:#373ec1;
+}
+/*color var*/
+
+
+.font{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+.para-color{
+	color: var(--text-color);
+	font-size: 13px;
+}
+nav{
+	line-height: 55px;
+}
+.navbar-brand{
+	width: 10%;
+}
+.brand-img{
+	margin-top: -17px;
+}
+.nav-link-strong{
+	color: var(--nav-link);
+}
+.btn-grad {
+	background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 100%);
+}
+.btn-grad:hover { 
+	background-position: right center;
+	}
+.circle{
+	height: 650px;
+    width: 650px;
+    background: #f9f2f2;
+    border-radius: 50%;
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    z-index: -1;
+}
+.icon-background{
+  padding: 25px 20px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.icon-feature{
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+.fa-laptop-code{
+  background-color: rgb(99, 139, 255);
+}
+.fa-mobile-alt{
+  background-color: rgb(99, 139, 255);
+}
+.fa-drafting-compass{
+  background-color: rgb(99, 139, 255);
+}
+
+/*for vertical line in list*/
+
+.list-ic a {
+  color: #788288;
+  text-decoration: none;
+}
+.list-ic li {
+  position: relative;
+}
+.list-ic li span {
+  display: inline-block;
+  font-weight: 800;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 1em;
+  background: #1893bc;
+  color: white;
+  position: relative;
+}
+.list-ic li::before {
+  content: ' ';
+  position: absolute;
+  background: #1893bc;
+  z-index: -1;
+}
+.list-ic.horizontal li {
+  display: inline-block;
+}
+.list-ic.horizontal li span {
+  margin: 0 1em;
+}
+.list-ic.horizontal li::before {
+  top: 0.9em;
+  left: -25px;
+  width: 4em;
+  height: 0.2em;
+}
+.list-ic.vertical {
+  padding: 0;
+  margin: 0;
+}
+.list-ic.vertical li {
+  list-style-type: none;
+  text-align: left;
+}
+.list-ic.vertical li span {
+  margin: 1.4em 0;
+}
+.list-ic.vertical li::before {
+ 	top: -106px;
+    left: 15px;
+    width: 0.2em;
+    height: 9em;
+}
+.list-ic li:first-child::before {
+  display: none;
+}
+.whatwedo-margin{
+	margin-top: -20px
+}
+
+/*contact form*/
+.contact{
+		padding: 4%;
+		height: 400px;
+	}
+	.contact-info{
+		margin-top:10%;
+	}
+	.contact-info img{
+		margin-bottom: 15%;
+	}
+	.contact-info h2{
+		margin-bottom: 10%;
+	}
+	.contact-form label{
+		font-size: 13px;
+		color: #666;
+	}
+	.contact-form button{
+		background: var(--btn-bg);
+		color: #fff;
+		font-weight: 600;
+		width: 60%;
+	}
+	.contact-form button:focus{
+		box-shadow:none;
+	}
+	.button-class{
+		padding-left: 18px;
+	}
+	.btn-send{
+		    margin-left: 57px;
+	}
