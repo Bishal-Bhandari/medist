@@ -32,7 +32,7 @@ a{
 	color:rgb(0, 0, 255);
 }
 .fa-medal{
-	color: rgb(255, 255, 0);
+	color: rgb(220, 120, 226);
 }
 .fa-heart{
 	color: rgb(0, 128, 0);
@@ -80,6 +80,14 @@ nav{
     left: -200px;
     z-index: -1;
 }
+.in-circle{
+	height: 100px;
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	border-radius:53% 46% 52% 51% / 0% 0% 61% 58%; 
+}
+
 .head-row-content{
 	padding-top: 60px;
 }
@@ -131,36 +139,35 @@ nav{
 	background-color: rgb(255, 255, 255);
 }
 .fa-facebook-f{
-  background-color: rgb(212, 209, 209);
+  background-color: rgb(236, 233, 233);
   box-shadow:5px 2px 15px rgb(130, 123, 123);
   color: rgb(32, 98, 140);
 }
 .fa-twitter{
-	background-color: rgb(212, 209, 209);
+	background-color: rgb(236, 233, 233);
   	box-shadow:5px 2px 15px rgb(130, 123, 123);
   	color: rgb(47, 124, 173);
 }
 .fa-linkedin-in{
-	background-color: rgb(212, 209, 209);
+	background-color: rgb(236, 233, 233);
   	box-shadow:5px 2px 15px rgb(130, 123, 123);
   	color: rgb(23, 76, 109);
 }
 .fa-instagram{
-	background-color: rgb(212, 209, 209);
+	background-color: rgb(236, 233, 233);
   	box-shadow:5px 2px 15px rgb(130, 123, 123);
   	color: rgb(156, 63, 33);
 }
 #whatwedo{
-	background-color: rgb(234, 232, 232);
+	background-color: rgb(249, 248, 248);
 }
 #features{
 	/*triangle background*/
-	background: linear-gradient(to bottom right, hsl(0, 5%, 91%) 0%, rgb(234, 232, 232) 50%, rgb(224, 210, 230) 50%, rgb(207, 214, 222) 100%);
+	background: linear-gradient(to bottom right, hsl(0, 5%, 91%) 0%, rgb(234, 232, 232) 50%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
 }
 #footer{
 	background-color: rgb(234, 232, 232);
 	line-height: 70px;
-    padding-top: 2rem;
 }
 .feature-article{
 	border-radius: 10px;
@@ -168,7 +175,9 @@ nav{
 }
 .feature-article:hover .icon-background{
 	background-color: #acc6de;
-	box-shadow:5px 2px 15px rgb(130, 123, 123);
+	}
+.feature-article:hover{
+	box-shadow:0px 0px 50px rgb(181, 179, 179);
 }
 /*for vertical line in list*/
 .list-ic a {
