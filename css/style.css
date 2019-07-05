@@ -3,13 +3,16 @@
   --nav-link:rgb(7, 53, 102);
   --section-bg:rgb(51, 51, 51);
   --text-color:rgb(102, 102, 102);
-  --signin-color:rgb(70, 195, 190);
+  --navbar-color:rgb(251, 234, 234);
   --anchor-color:rgb(205, 95, 218);
   --nav-li-hover-color:rgb(43, 118, 152);
   --btn-bg:rgb(25, 147, 188);
-
+  --head-heading-bottom:#4577b1;
+  --head-heading-top:#122e4e;
 }
 /*color var*/
+
+
 a{
 	color: var(--anchor-color) !important;
 }
@@ -31,7 +34,7 @@ a{
 .fa-medal{
 	color: rgb(255, 255, 0);
 }
-.fa-gratipay {
+.fa-heart{
 	color: rgb(0, 128, 0);
 }
 .font{
@@ -43,6 +46,11 @@ a{
 }
 nav{
 	line-height: 55px;
+	position: absolute!important;
+    z-index: 1;
+    background: var(--navbar-color);
+    width: 100%;
+    left: 0;
 }
 .navbar-brand{
 	width: 10%;
@@ -65,12 +73,21 @@ nav{
 .circle{
 	height: 650px;
     width: 650px;
-    background: rgb(249, 242, 242);
+    background: rgb(251, 234, 234);
     border-radius: 50%;
     position: absolute;
     top: -200px;
     left: -200px;
     z-index: -1;
+}
+.head-row-content{
+	padding-top: 60px;
+}
+.head-heading-top{
+	color: var(--head-heading-top);
+}
+.head-heading-bottom{
+	color:var(--head-heading-bottom);
 }
 .icon-background{
   padding: 25px 20px;
@@ -100,7 +117,7 @@ nav{
     line-height: 59px !important;
     color: rgb(255, 255, 255);
     padding: 0 30px;
-    margin-right: -5px;
+    margin-right: -10px;
     margin-left: 20px;
 }
 .footer-icon{
