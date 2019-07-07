@@ -284,9 +284,6 @@ nav{
 .button-class{
 	padding-left: 18px;
 }
-.btn-send{
-	margin-left: 57px;
-}
 .btn-send:hover{
 	background-color: rgb(50, 102, 127);
 }

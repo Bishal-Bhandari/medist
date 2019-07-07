@@ -257,17 +257,22 @@
 								<textarea class="form-control" rows="5" id="comment"></textarea>
 							</div>
 						</div>
-						<div class="row form-group button-class px-3">
-							<div class="col-sm-6">
+						<div class="row form-group button-class px-3 text-center">
+							<div class="col-sm-12 col-lg-6 col-md-6">
 								<div class="checkbox">
 									<label><input type="checkbox" value="">Accept <a href="#">terms &
 											conditions.</a></label>
 								</div>
 							</div>
-							<div class="col-sm-6">
+							<div class="col-sm-12 col-lg-6 col-md-6">
 								<button type="submit"
-									class="float-right border border-0 rounded py-2 px-4 btn-send">Send<i
+									class="float-right border border-0 rounded py-2 px-4 btn-send d-none d-lg-block">Send<i
 										class="fas fa-arrow-right ml-4"></i></button>
+								<!-- for mobile view -->
+								<button type="submit"
+									class="border border-0 rounded py-2 px-4 btn-send d-lg-none d-md-block d-sm-block d-xs-block">Send<i
+										class="fas fa-arrow-right ml-4"></i></button>
+								<!-- for mobile view -->
 							</div>
 						</div>
 					</div>
