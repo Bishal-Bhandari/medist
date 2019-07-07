@@ -76,12 +76,12 @@
 				<div class="col-lg-1 pr-0"></div>
 				<div class="col-lg-5 col-md-6 col-xs-12 col-sm-12 pl-0 pt-5 pl-lg-5">
 					<h3 class="display-3 font-weight-bold pt-5 head-heading-top">Healthcare</h3>
-					<h3 class="display-4 font-weight-bold pt-1 head-heading-bottom">Unlocked</h3>
+					<h3 class="display-4 pt-1 head-heading-bottom">Unlocked</h3>
 					<p class="para-color my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
 						adipiscing
 						elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						<a href="#"><strong class="signin">Lorem</strong></a></p>
+						<a href="#"><strong class="signin anchor-head-para">Lorem</strong></a></p>
 					<a href="#">
 						<button
 							class=" text-center btn-grad text-uppercase text-light small pr-0 pl-4 border border-0 rounded my-3">Learn
@@ -99,7 +99,7 @@
 		<!--===== feature section ======-->
 		<section class="container-fluid px-lg-5 px-3 my-5 py-5" id="features">
 			<div class="row px-5">
-				<div class="col-lg-4 col-md-12 col-sm-12 px-5 py-4">
+				<div class="col-lg-4 col-md-12 col-sm-12 px-4 py-4">
 					<article class="text-center px-5 py-5 feature-article">
 						<i class="fas fa-notes-medical icon-feature icon-background"></i>
 						<h5 class="font-weight-bold my-4">Fast Report</h5>
@@ -107,7 +107,7 @@
 							tempor incididunt ut labore et dolore magna aliqua.</p>
 					</article>
 				</div>
-				<div class="col-lg-4 col-md-12 col-sm-12 px-5 py-4">
+				<div class="col-lg-4 col-md-12 col-sm-12 px-4 py-4">
 					<article class="text-center px-5 py-5 feature-article">
 						<i class="fas fa-user-md icon-feature icon-background"></i>
 						<h5 class="font-weight-bold my-4">24X7 Doctors</h5>
@@ -115,7 +115,7 @@
 							tempor incididunt ut labore et dolore magna aliqua.</p>
 					</article>
 				</div>
-				<div class="col-lg-4 col-md-12 col-sm-12 px-5 py-4">
+				<div class="col-lg-4 col-md-12 col-sm-12 px-4 py-4">
 					<article class="text-center px-5 py-5 feature-article">
 						<i class="fas fa-prescription-bottle-alt icon-feature icon-background"></i>
 						<h5 class="font-weight-bold my-4">Quality Medicine</h5>
@@ -186,7 +186,7 @@
 					<ul class="list-ic vertical">
 						<li>
 							<span>1</span>
-							<a href="#" class="ml-2 text-uppercase">Locate</a>
+							<a href="#" class="ml-2 text-uppercase whatwedo-anchor">Locate</a>
 							<p class="para-color ml-5 whatwedo-margin">Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 								sed do eiusmod.Lorem ipsum dolor sit amet.
@@ -194,14 +194,14 @@
 						</li>
 						<li>
 							<span>2</span>
-							<a href="#" class="ml-2 text-uppercase">Ensure</a>
+							<a href="#" class="ml-2 text-uppercase whatwedo-anchor">Ensure</a>
 							<p class="para-color ml-5 whatwedo-margin">Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</p>
 						</li>
 						<li>
 							<span>3</span>
-							<a href="#" class="ml-2 text-uppercase">Atlast</a>
+							<a href="#" class="ml-2 text-uppercase whatwedo-anchor">Atlast</a>
 							<p class="para-color ml-5 whatwedo-margin">Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 								sed do eiusmod.
@@ -209,7 +209,7 @@
 						</li>
 						<li>
 							<span>4</span>
-							<a href="#" class="ml-2 text-uppercase">Protect</a>
+							<a href="#" class="ml-2 text-uppercase whatwedo-anchor">Protect</a>
 							<p class="para-color ml-5 whatwedo-margin">Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 								sed do eiusmod.
@@ -257,17 +257,22 @@
 								<textarea class="form-control" rows="5" id="comment"></textarea>
 							</div>
 						</div>
-						<div class="row form-group button-class px-3">
-							<div class="col-sm-6">
+						<div class="row form-group button-class px-3 text-center">
+							<div class="col-sm-12 col-lg-6 col-md-6">
 								<div class="checkbox">
 									<label><input type="checkbox" value="">Accept <a href="#">terms &
 											conditions.</a></label>
 								</div>
 							</div>
-							<div class="col-sm-6">
+							<div class="col-sm-12 col-lg-6 col-md-6">
 								<button type="submit"
-									class="float-right border border-0 rounded py-2 px-4 btn-send">Send<i
+									class="float-right border border-0 rounded py-2 px-4 btn-send d-none d-lg-block">Send<i
 										class="fas fa-arrow-right ml-4"></i></button>
+								<!-- for mobile view -->
+								<button type="submit"
+									class="border border-0 rounded py-2 px-4 btn-send d-lg-none d-md-block d-sm-block d-xs-block">Send<i
+										class="fas fa-arrow-right ml-4"></i></button>
+								<!-- for mobile view -->
 							</div>
 						</div>
 					</div>
