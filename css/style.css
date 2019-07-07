@@ -48,7 +48,7 @@ nav{
 	line-height: 55px;
 	position: fixed !important;
     z-index: 2;
-    /*background: var(--navbar-color);*/
+    /* background: var(--navbar-color); */
     width: 100%;
     left: 0;
 }

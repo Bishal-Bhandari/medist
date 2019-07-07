@@ -1,3 +1,5 @@
+
+// to show background color on scroll
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
