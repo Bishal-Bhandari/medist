@@ -10,8 +10,8 @@
   --btn-bg:rgb(25, 147, 188);
   --head-heading-bottom:rgb(69, 119, 177);
   --head-heading-top:rgb(18, 46, 78);
-  --whatwedo-anchor-color:rgb(224, 86, 117);
-  --whatwedo-anchor-color-hover:rgb(202, 66, 97);
+  --whatwedo-anchor-color:rgb(33, 37, 41);
+  --whatwedo-anchor-color-hover:rgb(46, 8, 17);
 }
 /*color var*/
 
@@ -81,7 +81,7 @@ nav{
 .circle{
 	height: 650px;
     width: 650px;
-    background: rgb(251, 234, 234);
+    background: rgb(255, 247, 247);
     border-radius: 50%;
     position: absolute;
     top: -200px;
@@ -148,22 +148,22 @@ nav{
 }
 .fa-facebook-f{
   	background-color: rgb(238, 238, 238);
-  	box-shadow:5px 2px 15px rgb(130, 123, 123);
+  	box-shadow:5px 2px 15px rgb(204, 200, 200);
   	color: rgb(32, 98, 140);
 }
 .fa-twitter{
 	background-color: rgb(238, 238, 238);
-  	box-shadow:5px 2px 15px rgb(130, 123, 123);
+  	box-shadow:5px 2px 15px rgb(204, 200, 200);
   	color: rgb(47, 124, 173);
 }
 .fa-linkedin-in{
 	background-color: rgb(238, 238, 238);
-  	box-shadow:5px 2px 15px rgb(130, 123, 123);
+  	box-shadow:5px 2px 15px rgb(204, 200, 200);
   	color: rgb(23, 76, 109);
 }
 .fa-instagram{
 	background-color: rgb(238, 238, 238);
-  	box-shadow:5px 2px 15px rgb(130, 123, 123);
+  	box-shadow:5px 2px 15px rgb(204, 200, 200);
   	color: rgb(156, 63, 33);
 }
 #whatwedo{
@@ -171,13 +171,15 @@ nav{
 }
 #features{
 	/*triangle background*/
-	background: linear-gradient(to bottom right, hsl(0, 5%, 91%) 0%, rgb(234, 232, 232) 50%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+	/*background: linear-gradient(to bottom right, hsl(0, 6%, 94%) 0%, rgb(234, 232, 232) 50%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);*/
+	background-image: radial-gradient(ellipse farthest-corner at -90% 100%, #fbfbfb 0%, #fbfbfb 70%, #fff 70%);
 }
 #footer{
 	background-color: rgb(251, 251, 251);
 	line-height: 70px;
 }
 .feature-article{
+	border: 1px solid rgb(245, 243, 243);
 	border-radius: 10px;
 	background-color: rgb(255, 255, 255);
 }
@@ -276,7 +278,7 @@ nav{
 	background: var(--btn-bg);
 	color: rgb(255, 255, 255);
 	font-weight: 600;
-	width: 70%;
+	width: 50%;
 }
 .contact-form button:focus{
 	box-shadow:none;
@@ -286,4 +288,239 @@ nav{
 }
 .btn-send:hover{
 	background-color: rgb(50, 102, 127);
+}
+
+/*service page css*/
+.service-head-img{
+	height: 400px;
+  	background-image: url(../img/service-head.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	position: relative;
+  	overflow: hidden;
+}
+.service-head-img::before{
+	content: "";
+	background-color: #fff;
+	opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.para-service{
+	color: #fff;
+}
+.service-heading-top{
+	color: #fff;
+}
+.icon-service{
+	font-size: 90px;
+	color: #96a6ae;
+}
+.service-article-para{
+	font-size: 12px;
+}
+.service-article:hover{
+	background-color: #ebf9f3;
+	border-radius: 5px;
+}
+.service-testomonial-img{
+	height: 100%;
+  	background-image: url(../img/service-testomonial-img.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	position: relative;
+    overflow: hidden;
+}
+.service-testomonial-img::before{
+	content: "";
+	background-color: #000;
+	opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+}
+.service-testomonial-figure{
+	width: 89px;
+    height: 90px;
+    position: absolute;
+    top:0%;
+    border-top-left-radius: 5px;
+}
+/*.service-testomonial-head::after{
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	position: absolute;
+	top: 42%;
+    left: 40%;
+	transform: rotate(45deg);
+}*/
+.service-testomonial-name{
+	margin-left: 115px;
+}
+.service-testomonial-head{
+    height: 82px;
+    padding: 10px 0px;
+    border-top-right-radius:  5px;
+    border-top-left-radius:  5px;
+}
+.service-testomonial-article{
+	border-radius: 5px;
+}
+.service-testomonial-head-bg1{
+	background-color: #7e9eee;
+}
+.service-testomonial-head-bg2{
+	background-color: #4b6ab8;
+}
+.service-testomonial-head-bg3{
+	background-color: #223e84;
+}
+.service-testo-quote{
+	color: #7e9eee;
+	font-size: 25px;
+}
+
+
+/*doctors page css*/
+.doctors-post-img{
+	width: 100%;
+	height: auto;
+}
+.doctors-post-article{
+	background-color: #f8fdff;
+	border-radius: 5px;
+	border-bottom: 5px solid #2182b2;
+}
+.doctors-post-img>img{
+	border-radius: 5px;
+}
+.name-icon{
+	display: none;
+}
+.doctor-icons{
+	width: 30px;
+    background: #2182b2;
+    color: white;
+    border-radius: 50%;
+    padding: 8px 8px;
+}
+.doctor-icons:hover{
+	background: #125577;
+}
+.doctors-post-article:hover .name-icon{
+    display: block;
+    position: absolute;
+    top: 55%;
+    background: #f8fdff;
+    width: 100%;
+}
+
+/*about css*/
+.icon-about{
+	font-size: 90px;
+	color: #96a6ae;
+}
+.about-article-para{
+	font-size: 11px;
+}
+.show-project-num {
+      padding: 50px 0px;
+      /*background-color: rgb(83, 90, 111);*/
+      width: 24.86%;
+}
+.value{
+    color: rgb(148, 154, 175);
+    font-size: 80px;
+    margin-top: 40px;
+}
+.bar{
+  margin-top: 140px;
+  height: 80px;
+  width: 1px;
+  background-color: rgb(255, 255, 255);
+}
+.counter-row-img{
+	height: 100%;
+  	background-image: url(../img/counterImg.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	position: relative;
+    overflow: hidden;
+}
+.counter-icon{
+	color: #2182b2;
+	height: 30%;
+	width: 20%;
+	margin-top: 20px;
+}
+.counter-name{
+	color: #2182b2;
+}
+.service-icon{
+	color: #2182b2;
+	height: 30%;
+	width: 20%;
+}
+
+/*contact css*/
+.contact-icon{
+	color: #2182b2;
+	height: 30%;
+	width: 20%;
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .doctors-post-article:hover .name-icon{
+    display: block;
+    position: absolute;
+    top: 65%;
+    background: #f8fdff;
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .doctors-post-article:hover .name-icon{
+    display: block;
+    position: absolute;
+    top: 60%;
+    background: #f8fdff;
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+.doctors-post-article:hover .name-icon{
+    display: block;
+    position: absolute;
+    top: 48%;
+    background: #f8fdff;
+    width: 100%;
+}
+.service-testomonial-name {
+	margin-left: 105px;
+}
+.fontsize-service-testomonial-heading{
+	font-size: 20px;
+}
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+  .doctors-post-article:hover .name-icon{
+    display: block;
+    position: absolute;
+    top: 60%;
+    background: #f8fdff;
+    width: 100%;
+}
 }
