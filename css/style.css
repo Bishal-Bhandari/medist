@@ -12,6 +12,7 @@
   --head-heading-top:rgb(18, 46, 78);
   --whatwedo-anchor-color:rgb(33, 37, 41);
   --whatwedo-anchor-color-hover:rgb(46, 8, 17);
+  --headingpara-color:#c5c5c5;
 }
 /*color var*/
 
@@ -50,6 +51,7 @@
 .para-color{
 	color: var(--text-color);
 	font-size: 13px;
+}
 }
 nav{
 	line-height: 55px;
@@ -256,6 +258,11 @@ nav{
 	margin-top: -20px
 }
 
+.underline-bar{
+	width: 8%;
+	background-color: #2182b2;
+	height: 5px;
+}
 /*contact form*/
 .contact{
 	padding: 4%;
@@ -291,8 +298,12 @@ nav{
 }
 
 /*service page css*/
+.service-head-section{
+	height: 440px;
+   	overflow: hidden;
+}
 .service-head-img{
-	height: 400px;
+	height: 690px;
   	background-image: url(../img/service-head.jpg);
   	background-size: cover;
   	background-position: center;
@@ -301,8 +312,8 @@ nav{
 }
 .service-head-img::before{
 	content: "";
-	background-color: #fff;
-	opacity: 0.3;
+	background-color: #000;
+	opacity: 0.7;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -310,11 +321,12 @@ nav{
     overflow: hidden;
 }
 .para-service{
-	color: #fff;
+	 color:var(--headingpara-color);
 }
 .service-heading-top{
-	color: #fff;
+	 color:var(--headingpara-color);
 }
+
 .icon-service{
 	font-size: 90px;
 	color: #96a6ae;
@@ -337,7 +349,7 @@ nav{
 .service-testomonial-img::before{
 	content: "";
 	background-color: #000;
-	opacity: 0.3;
+	opacity: 0.7;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -350,16 +362,6 @@ nav{
     top:0%;
     border-top-left-radius: 5px;
 }
-/*.service-testomonial-head::after{
-	content: "";
-	width: 20px;
-	height: 20px;
-	background-color: #fff;
-	position: absolute;
-	top: 42%;
-    left: 40%;
-	transform: rotate(45deg);
-}*/
 .service-testomonial-name{
 	margin-left: 115px;
 }
@@ -373,13 +375,13 @@ nav{
 	border-radius: 5px;
 }
 .service-testomonial-head-bg1{
-	background-color: #7e9eee;
+	background-color: var(--info);
 }
 .service-testomonial-head-bg2{
-	background-color: #4b6ab8;
+	background-color: var(--green);
 }
 .service-testomonial-head-bg3{
-	background-color: #223e84;
+	background-color: var(--red);
 }
 .service-testo-quote{
 	color: #7e9eee;
@@ -403,14 +405,17 @@ nav{
 }
 .name-icon{
 	position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	background-color: #008CBA;
+	overflow: hidden;
+	width: 100%;
+	height: 0%;
+	transition: 0.75s ease;
+}
+.doctors-post-article:hover .name-icon{
+     height: 50%;
 }
 .doctor-icons{
 	width: 30px;
@@ -422,9 +427,7 @@ nav{
 .doctor-icons:hover{
 	background: #125577;
 }
-.doctors-post-article:hover .name-icon{
-     height: 55%;
-}
+
 
 /*about css*/
 .icon-about{
@@ -485,47 +488,47 @@ nav{
 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .doctors-post-article:hover .name-icon{
-    display: block;
-    position: absolute;
-    top: 65%;
-    background: #f8fdff;
-    width: 100%;
-}
+	  .doctors-post-article:hover .name-icon{
+	    display: block;
+	    position: absolute;
+	    /*top: 65%;*/
+	    background: #f8fdff;
+	    width: 100%;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .doctors-post-article:hover .name-icon{
-    display: block;
-    position: absolute;
-    top: 40%;
-    background: #f8fdff;
-    width: 100%;
-}
+	  .doctors-post-article:hover .name-icon{
+	    display: block;
+	    position: absolute;
+	    /*top: 40%;*/
+	    background: #f8fdff;
+	    width: 100%;
+	}
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-.doctors-post-article:hover .name-icon{
-    display: block;
-    position: absolute;
-    top: 45%;
-    background: #f8fdff;
-    width: 100%;
-}
-.service-testomonial-name {
-	margin-left: 105px;
-}
-.fontsize-service-testomonial-heading{
-	font-size: 20px;
-}
+	.doctors-post-article:hover .name-icon{
+	    display: block;
+	    position: absolute;
+	    /*top: 45%;*/
+	    background: #f8fdff;
+	    width: 100%;
+	}
+	.service-testomonial-name {
+		margin-left: 105px;
+	}
+	.fontsize-service-testomonial-heading{
+		font-size: 20px;
+	}
 }
 
 @media screen and (min-width: 1440px) and (max-width: 2560px) {
-  .doctors-post-article:hover .name-icon{
-    display: block;
-    position: absolute;
-    top: 45%;
-    background: #f8fdff;
-    width: 100%;
-}
+	  .doctors-post-article:hover .name-icon{
+	    display: block;
+	    position: absolute;
+	    /*top: 45%;*/
+	    background: #f8fdff;
+	    width: 100%;
+	}
 }
