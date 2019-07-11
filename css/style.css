@@ -12,7 +12,8 @@
   --head-heading-top:rgb(18, 46, 78);
   --whatwedo-anchor-color:rgb(33, 37, 41);
   --whatwedo-anchor-color-hover:rgb(46, 8, 17);
-  --headingpara-color:#c5c5c5;
+  --heading-color-pages:rgb(223, 223, 223);
+  --para-color-pages:rgb(197, 197, 197);
 }
 /*color var*/
 
@@ -297,7 +298,7 @@ nav{
 
 /*service page css*/
 .service-head-section{
-	height: 440px;
+	height: 430px;
    	overflow: hidden;
 }
 .service-head-img{
@@ -319,10 +320,10 @@ nav{
     overflow: hidden;
 }
 .para-service{
-	 color:var(--headingpara-color);
+	 color:var(--para-color-pages);
 }
 .service-heading-top{
-	 color:var(--headingpara-color);
+	 color:var(--heading-color-pages);
 }
 
 .icon-service{
