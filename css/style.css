@@ -146,7 +146,7 @@ nav{
     color: rgb(255, 255, 255);
     padding: 4px 18px 0 20px;
     margin-right: 0px;
-    margin-left: 20px;
+    margin-left: 23px;
 }
 .footer-icon{
 	padding: 8px 10px;
@@ -187,7 +187,7 @@ nav{
 	background-image: radial-gradient(ellipse farthest-corner at -90% 100%, #fbfbfb 0%, #fbfbfb 70%, #fff 70%);
 }
 #footer{
-	background-color: rgb(251, 251, 251);
+	background-color: rgb(240, 246, 249);
 	line-height: 70px;
 }
 .feature-article{
@@ -350,7 +350,7 @@ nav{
 }
 .service-testomonial-img{
 	height: 100%;
-  	background-image: url(../img/service-testomonial-img.jpg);
+  	background-image: url(../img/testo.jpg);
   	background-size: cover;
   	background-position: center;
   	position: relative;
@@ -397,7 +397,9 @@ nav{
 	color: rgb(126, 158, 238);
 	font-size: 25px;
 }
-
+/* .footer-brand{
+	margin-left: 115px;
+} */
 
 /*doctors page css*/
 .doctors-post-img{
@@ -504,7 +506,20 @@ nav{
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-	btn
+	.contact-form .checkbox label {
+		font-size: 8px;
+	}
+	.arrow-head {
+		background: rgb(13, 67, 109);
+		height: 45px;
+		/* width: 11%; */
+		line-height: 35px !important;
+		color: rgb(255, 255, 255);
+		padding: 4px 10px 0 10px;
+		margin-right: 0px;
+		margin-left: 27px;
+	}
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
