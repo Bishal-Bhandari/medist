@@ -396,12 +396,21 @@ nav{
 	background-color: #f8fdff;
 	border-radius: 5px;
 	border-bottom: 5px solid #2182b2;
+	position: relative;
 }
 .doctors-post-img>img{
 	border-radius: 5px;
 }
 .name-icon{
-	display: none;
+	position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
 }
 .doctor-icons{
 	width: 30px;
@@ -414,11 +423,7 @@ nav{
 	background: #125577;
 }
 .doctors-post-article:hover .name-icon{
-    display: block;
-    position: absolute;
-    top: 55%;
-    background: #f8fdff;
-    width: 100%;
+     height: 55%;
 }
 
 /*about css*/
@@ -493,7 +498,7 @@ nav{
   .doctors-post-article:hover .name-icon{
     display: block;
     position: absolute;
-    top: 60%;
+    top: 40%;
     background: #f8fdff;
     width: 100%;
 }
@@ -503,7 +508,7 @@ nav{
 .doctors-post-article:hover .name-icon{
     display: block;
     position: absolute;
-    top: 48%;
+    top: 45%;
     background: #f8fdff;
     width: 100%;
 }
@@ -519,7 +524,7 @@ nav{
   .doctors-post-article:hover .name-icon{
     display: block;
     position: absolute;
-    top: 60%;
+    top: 45%;
     background: #f8fdff;
     width: 100%;
 }
