@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+	
 	<title>Contact Us</title>
 	<!-- Icon -->
 	<link rel="icon" type="image/png" href="img/icon.png">
@@ -36,7 +37,6 @@
 		<!--===== head section =====-->
 		<section id="head" class="container-fluid mb-4 pb-3 px-0 service-head-section">
 
-			<!--Navbar -->
 			<nav class="mb-1 navbar navbar-expand-lg navbar-light ">
 				<a class="navbar-brand" href="index.html"><img class="brand-img m-0" src="img/brand-light.png"
 						width="115px"></a>
@@ -74,7 +74,7 @@
 					</ul>
 				</div>
 			</nav>
-			<!--/.Navbar -->
+
 			<div class="row mx-0 head-row-content service-head-img">
 				<div class="col-12 pl-3 pt-3 pl-lg-5 ml-lg-5">
 					<h3 class="display-3 pt-5 service-heading-top">Contact Us</h3>
@@ -93,10 +93,9 @@
 			</div>
 		</section>
 
-
 		<!--===== contact form ======-->
-		<section class="container-fluid px-lg-5 px-2">
-			<div class="row pt-5 px-lg-5 px-2">
+		<section id= "contact" class="container-fluid px-lg-5 px-2">
+			<div class="row px-lg-5 px-2">
 
 				<div class="col-sm-4 border-right text-center">
 					<span class="iconify contact-icon" data-icon="jam:map-marker-f" data-inline="false"></span>
@@ -116,7 +115,7 @@
 
 			</div>
 
-			<form id="contactForm" method="post" class="form  px-lg-5 px-2" role="form">
+			<form id="contactForm" method="post" class="form px-lg-5 px-2" role="form">
 				<div class="row pt-5 mt-5">
 
 					<div class="col-lg-3 col-sm-12 py-2">
@@ -140,7 +139,8 @@
 					<div class="col-sm-12">
 						<textarea class="form-control" id="message" name="message"
 							placeholder="What is the nature of your appointment and who would you like to see? *"
-							rows="8"></textarea>
+							rows="8">
+						</textarea>
 					</div>
 				</div>
 			</form>
@@ -201,6 +201,7 @@
 	<script type="text/javascript">
 		AOS.init({
 			duration: 1200,
+			once: true
 		})
 	</script>
 	<script src="https://code.iconify.design/1/1.0.2/iconify.min.js"></script>
