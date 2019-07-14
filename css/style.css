@@ -547,6 +547,11 @@ nav{
 	height: 30%;
 	width: 20%;
 }
+.contact-send-btn{
+	width: 10%;
+}
+
+
 /*pop up*/
 /* Popup box BEGIN */
 .popup-div{
