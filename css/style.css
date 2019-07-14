@@ -635,7 +635,7 @@ nav{
 	color: #2182b2;
 }
 .popup-div-send-btn{
-	width: 15%;
+	width: 120px;
 }
 .popup-form-col{
 	margin: 20px 0px;
@@ -673,6 +673,10 @@ nav{
 @media screen and (min-width: 320px) and (max-width: 768px) {
 nav{
 	background-color: #928e8e;
+	}
+.popup-form-col{
+	margin: 1px 0px;
+
 	}
 }
 
