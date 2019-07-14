@@ -61,7 +61,7 @@
 									class="nav-link-strong">Doctors</strong></a>
 						</li>
 						<li class="nav-item mx-3">
-							<a class="nav-link text-uppercase small" href="#"><strong
+							<a class="nav-link text-uppercase small trigger-popup-div" href="#"><strong
 									class="nav-link-strong">Appointments</strong></a>
 						</li>
 						<li class="nav-item mx-3">
@@ -426,7 +426,85 @@
 				</div>
 			</div>
 		</footer>
+<!--===== pop up  =====-->
+		<div class="popup-div">
+			<span class="helper"></span>
+			<div>
+				<div class="popupCloseButton">X</div>
+				<!--===== contact form ======-->
+				<section id="appointments" class="container-fluid px-2 appointments">
+					<form id="contactForm" method="post" class="form px-2" role="form">
+						<div class="row">
 
+							<div class="col-lg-8 col-sm-12 py-4 px-lg-4">
+								<h5 class="display-5 popup-form-heading-left">Book an Appointment.</h5>
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="fname" class="">Full Name</label>
+										<input type="text" class="form-control" id="fname" required>
+									</div>
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="email" class="">Email Address</label>
+										<input type="email" class="form-control" id="email" required>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="number" class="">Phone Number</label>
+										<input type="text" class="form-control" id="number" required>
+									</div>
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="zipcode" class="">Zip Code</label>
+										<input type="zipcode" class="form-control" id="zipcode">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="fdate" class="">Date & Time <span class="small">(1st
+												Preference)</span></label>
+										<input type="fdate" class="form-control" id="fdate" required>
+									</div>
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="ldate" class="">Date & Time <span class="small">(2nd
+												Preference)</span></label>
+										<input type="ldate" class="form-control" id="ldate">
+									</div>
+								</div>
+								<div class="row mt-3">
+										<button type="button"
+											class="btn ml-3 btn-info popup-div-send-btn text-center">Send</button>
+									</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-12 py-4 px-lg-4 d-lg-block d-none popup-main-col-right">
+								<h5 class="display-5 popup-form-heading-right ">Get in touch.</h5>
+								<div class="row mb-5">
+									<div class="col-lg-4 col-sm-12">
+										<span class="iconify appointment-popup-icon" data-icon="simple-line-icons:screen-smartphone"
+											data-inline="false"></span>
+									</div>
+									<div class="col-lg-8 col-sm-12">
+										<p class="text-uppercase text-white ">Phone</p>
+										<p class="text-white ">+977-9851xxxxxx</p>
+									</div>
+								</div>
+								<div class="row mt-5">
+									<div class="col-lg-4 col-sm-12">
+										<span class="iconify appointment-popup-icon" data-icon="mdi-light:email" data-inline="false"></span>
+									</div>
+									<div class="col-lg-8 col-sm-12">
+										<p class="text-uppercase text-white">Email</p>
+										<p class="text-white">support@onaircode.com</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+		<!--===== pop up ======-->
 	</div>
 	<script type="text/javascript">
 		AOS.init({
