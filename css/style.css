@@ -617,16 +617,22 @@ nav{
     display: inline-block;
     font-weight: bold;
 }*/
-.popup-form-heading{
+.popup-form-heading-right{
+	color: #fff;
+}
+.popup-form-heading-left{
 	color: #2182b2;
 }
 .appointment-popup-icon{
-	color: #2182b2;
-    height: 80px;
-    width: 80px;
+	color: #fff;
+    height: 70px;
+    width: 70px;
     padding: 20px 20px;
-    border: 1px solid #2182b2;
+    border: 1px solid #fff;
     border-radius: 50%;
+}
+.input-label-color{
+	color: #2182b2;
 }
 .popup-div-send-btn{
 	width: 15%;
@@ -636,7 +642,7 @@ nav{
 
 }
 .popup-main-col-right{
-	background-color: #26365e;
+	background-color: #2182b2;
 	border-top-right-radius: 7px;
 	border-bottom-right-radius: 7px;
 
@@ -665,7 +671,9 @@ nav{
 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-
+nav{
+	background-color: #928e8e;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
