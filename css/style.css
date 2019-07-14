@@ -431,6 +431,7 @@ nav{
 .doctors-post-img{
 	width: 100%;
 	height: auto;
+	overflow:hidden;
 }
 .doctors-post-article{
 	background-color: rgb(248, 253, 255);
