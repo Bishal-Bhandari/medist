@@ -58,6 +58,10 @@
 	color: var(--text-color);
 	font-size: 13px;
 }
+/*contact btn's anchor from index page*/
+.contact-send-index-anchor{
+	margin-top: -40px;
+}
 /* style for navbar */
 nav{
 	line-height: 30px;
@@ -111,6 +115,7 @@ nav{
 		padding: 4px 18px 0 20px;
 		margin-right: 0px;
 		margin-left: 23px;
+		border-radius: 2px;
 	}
 	/* index page top circle style */
 .circle{
