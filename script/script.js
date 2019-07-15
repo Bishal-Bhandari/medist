@@ -23,7 +23,7 @@ $(document).ready(function () {
         }
 
         else {
-          $(".navbar").css("background", "gray");
+          $(".navbar").css("background", "#2282b2");
           $(".navbar").css("box-shadow", "none");
           $(".nav-link-strong").css("color", "rgb(255, 255, 255)");
         }}
