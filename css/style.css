@@ -667,7 +667,7 @@ nav{
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
 nav{
-	background-color: #2282b2;
+	background-color: #fff;
 	}
 .popup-form-col{
 	margin: 1px 0px;
@@ -687,7 +687,9 @@ nav{
     width: 0.2em;
     height: 13em;
 }
-
+.nav-link-strong{
+	color: rgb(7, 53, 102);
+}
 
 
 
