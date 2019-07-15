@@ -101,7 +101,7 @@
 		<section class="container-fluid py-4">
 
 			<!-- row starts -->
-			<div class="row px-5 pt-0 pb-4">
+			<div class="row px-lg-5 px-2 pt-0 pb-4">
 				<div class="col-lg-3 col-sm-6 p-2">
 					<article class="text-center pb-1 doctors-post-article" data-aos="fade-up">
 						<figure class="doctors-post-img">
@@ -382,8 +382,13 @@
 			<div class="row in-circle mx-0 px-0"></div>
 			<div class="row text-center">
 				<div class="col-lg-2">
-					<a class="nav-link small footer-brand" href="#"><img class="brand-img" src="img/brand-dark.png"
+					<!-- got large view -->
+					<a class="nav-link small footer-brand d-lg-block d-none" href="#"><img class="brand-img" src="img/brand-dark.png"
 							width="115px"></a>
+					<!-- for sm view -->
+					<a class="nav-link small d-block d-lg-none" href="#"><img class="brand-img" src="img/brand-dark.png"
+							width="115px"></a>
+
 				</div>
 				<div class="col-lg-6">
 					<ul class="list-inline text-center">
