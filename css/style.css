@@ -484,7 +484,7 @@ nav{
 /* style for counter section */
 .show-project-num {
       padding: 50px 0px;
-	  width: 24.86%;
+	  width: 24.70%;
 	  z-index: 1;
 }
 .value{
@@ -591,25 +591,25 @@ nav{
 
 }
 .popupCloseButton {
-    background-color: #fff;
-    border: 3px solid #999;
+    background-color: #2282b2;
+    border: 3px solid #fff;
     border-radius: 50px;
     cursor: pointer;
     display: inline-block;
-    font-family: arial;
     font-weight: bold;
     position: absolute;
     top: 5px;
-    right: 5px;
-    font-size: 25px;
+    right: -1px;
+    font-size: 17px;
     line-height: 27px;
     width: 30px;
     height: 30px;
     text-align: center;
-    z-index: 1
+    z-index: 1;
+    color: white;
 }
 .popupCloseButton:hover {
-    background-color: #ccc;
+    background-color: #c63407;
 }
 /*.trigger_popup_fricc {
     cursor: pointer;
@@ -678,6 +678,11 @@ nav{
 .popup-form-col{
 	margin: 1px 0px;
 
+	}
+.value{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-top: 40px;
 	}
 }
 
