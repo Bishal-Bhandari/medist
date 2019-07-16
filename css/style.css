@@ -703,7 +703,18 @@ nav{
 .nav-link-strong{
 	color: rgb(7, 53, 102);
 }
-
+.show-project-num {
+    padding: 15px 0px;
+    width: 49%;
+    z-index: 1;
+	}
+.bar {
+    margin-top: 75px;
+    height: 80px;
+    width: 1px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
 
 }
 
