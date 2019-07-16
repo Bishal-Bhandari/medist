@@ -300,6 +300,7 @@ nav{
 	width: 8%;
 	background-color: rgb(33, 130, 178);
 	height: 5px;
+	float: left;
 }
 
 /*contact form index page*/
@@ -367,6 +368,7 @@ nav{
 }
 .para-service{
 	 color:var(--para-color-pages);
+	 clear: both;
 }
 .service-heading-top{
 	 color:var(--heading-color-pages);
