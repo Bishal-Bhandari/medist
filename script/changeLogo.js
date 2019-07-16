@@ -1,4 +1,4 @@
-//// to show background color on scroll
+//// to change logo on scroll in pages except index.html
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
