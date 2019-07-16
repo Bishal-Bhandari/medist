@@ -3,7 +3,7 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    if ($(window).width() > 768) {
+    if ($(window).width() > 991) {
       if (scroll > 80) {
         $(".navbar").css("background", "#fff");
         $(".nav-link-strong").css("color", "rgb(7, 53, 102)");

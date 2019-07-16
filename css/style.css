@@ -723,6 +723,46 @@ nav{
 
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+nav{
+	background-color: #fff;
+	}
+.popup-form-col{
+	margin: 1px 0px;
+
+	}
+.value{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-top: 40px;
+	}
+.display-3{
+	font-size: 3.5rem!important;
+}
+.list-ic.vertical li::before {
+    top: -166px;
+    left: 15px;
+    width: 0.2em;
+    height: 13em;
+}
+.nav-link-strong{
+	color: rgb(7, 53, 102);
+}
+.show-project-num {
+    padding: 15px 0px;
+    width: 49%;
+    z-index: 1;
+	}
+.bar {
+    margin-top: 75px;
+    height: 80px;
+    width: 1px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 	.contact-form .checkbox label {
 		font-size: 8px;
