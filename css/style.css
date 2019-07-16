@@ -557,6 +557,7 @@ nav{
 	width: 16%;
     background-color: rgb(33, 130, 178);
     height: 2px;
+    float: left;
 }
 /*.wrapper-counter{
 	width: 100%;
