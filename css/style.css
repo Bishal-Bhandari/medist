@@ -119,8 +119,8 @@ nav{
 	}
 	/* index page top circle style */
 .circle{
-	height: 650px;
-    width: 650px;
+	height: 530px;
+    width: 530px;
     background: rgb(255, 247, 247);
     border-radius: 50%;
     position: absolute;
@@ -315,12 +315,10 @@ nav{
 	font-size: 13px;
 	color: rgb(102, 102, 102);
 }
-/* .contact-form button{
-	background: var(--btn-bg);
-	color: rgb(255, 255, 255);
-	font-weight: 600;
-	width: 50%;
-} */
+.index-contact-send-btn{
+	margin-top: -35px;
+	width: 110px;
+}
 .contact-form button:focus{
 	box-shadow:none;
 }
@@ -330,6 +328,13 @@ nav{
 .btn-send:hover{
 	background-color: rgb(50, 102, 127);
 }
+.custom-control-label{
+	font-size: 12px;
+}
+.custom-control{
+	width: 62%;
+}
+
 
 /*service page css*/
 /* this style is for every other pages head section except index */
@@ -546,9 +551,9 @@ nav{
     background-color: rgb(33, 130, 178);
     height: 2px;
 }
-.wrapper-counter{
+/*.wrapper-counter{
 	width: 100%;
-}
+}*/
 
 /*contact css*/
 .contact-icon{
@@ -607,7 +612,7 @@ nav{
     font-weight: bold;
     position: absolute;
     top: 5px;
-    right: -1px;
+    right: 5px;
     font-size: 17px;
     line-height: 27px;
     width: 30px;

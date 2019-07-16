@@ -246,65 +246,50 @@
 				<div class="col-lg-7">
 					<img src="img/contact-new1.jpg" width="100%" alt="contact image">
 				</div>
-				<div class="col-lg-5 pt-2 pb-2 pr-lg-4">
-					<div class="contact-form">
-						<div class="form-group">
-							<label class="control-label col-sm-12" for="fname">Full Name</label>
-							<div class="col-sm-12">
-								<input type="text" class="form-control" id="fname" placeholder="Enter First Name"
-									name="fname">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="control-label col-sm-12" for="email">Email</label>
-							<div class="col-sm-12">
-								<input type="email" class="form-control" id="email" placeholder="Enter email"
-									name="email">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="control-label col-sm-12" for="comment">Message</label>
-							<div class="col-sm-12">
-								<textarea class="form-control" rows="5" id="comment"></textarea>
-							</div>
-						</div>
+				<div class="col-lg-5 pt-0 pt-sm-2 pb-2 pr-lg-4">
+					<form id="contactForm" method="post" class="form px-1" role="form">
+				<div class="row pt-0">
 
-						<!-- for big view -->
-						<div class="row form-group button-class px-3 d-none d-lg-block">
-							<div class="col-lg-12">
-								<div class="checkbox">
-									<label><input type="checkbox" value="">Accept <a href="#">terms &
-											conditions.</a></label>
-								</div>
-								<!-- </div>
-							<div class="col-lg-6"> -->
-								<a href="#" class="float-right contact-send-index-anchor">
-									<button
-										class="text-center btn-grad text-uppercase text-light small pr-0 pl-4 border border-0 rounded">Send<i
-											class="text-center fas fa-arrow-right arrow-head fa-1x"></i>
-									</button>
-								</a>
-							</div>
-						</div>
-
-						<!-- for mobile view only -->
-						<div class="row form-group button-class px-3 d-block d-lg-none text-center">
-							<div class="col-sm-12 col-lg-6 col-md-6">
-								<div class="checkbox">
-									<label><input type="checkbox" value="">Accept <a href="#">terms &
-											conditions.</a></label>
-								</div>
-							</div>
-							<div class="col-sm-12 col-lg-6 col-md-6">
-								<a href="#" class="text-center">
-									<button
-										class="text-center btn-grad text-uppercase text-light small pr-0 pl-4 border border-0 rounded">Send<i
-											class="text-center fas fa-arrow-right arrow-head fa-1x"></i>
-									</button>
-								</a>
-							</div>
-						</div>
+					<div class="col-sm-12 py-2">
+						<input class="form-control" id="name" name="name" placeholder="Your Name *" type="text"
+							required />
 					</div>
+					<div class="col-sm-12 py-2">
+						<input class="form-control" id="email" name="email" placeholder="Your Email *" type="email"
+							required />
+					</div>
+				</div>
+				<div class="row py-4">
+					<div class="col-sm-12">
+						<textarea class="form-control" rows="8" id="comment"
+							placeholder="Send us message. *"></textarea>
+					</div>
+				</div>
+				<!-- for large view -->
+				<div class="row m-0 d-none d-lg-block">
+					
+					<!-- Default unchecked -->
+					<div class="custom-control custom-checkbox">
+					    <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+					    <label class="custom-control-label" for="defaultUnchecked">Accept <a href="#">terms and conditions.</a></label>
+					</div>
+
+					<input type="submit" value="Send"
+						class="btn btn-info ml-auto index-contact-send-btn text-uppercase float-right">
+				
+			</div>
+				<!-- for sm view -->
+				<div class="row m-0 d-lg-none d-block text-center">
+					<!-- Default unchecked -->
+					<div class="custom-control custom-checkbox mx-auto">
+					    <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+					    <label class="custom-control-label" for="defaultUnchecked">Accept <a href="#">terms and conditions.</a></label>
+					</div>
+
+					<input type="submit" value="Send"
+						class="btn btn-info mx-auto contact-send-btn text-uppercase text-center">
+				</div>
+			</form>
 				</div>
 			</div>
 		</section>
