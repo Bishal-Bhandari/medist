@@ -190,6 +190,12 @@ nav{
 	background-color: rgb(240, 246, 249);
 	line-height: 70px;
 }
+.copy-right-footer{
+	font-size: 14px;
+    margin-top: -23px;
+}
+
+}
 .footer-icon{
 	padding: 8px 10px;
 	width: 30px;
