@@ -70,6 +70,14 @@ nav{
     width: 100%;
     left: 0;
 }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+    background: rgba(0, 0, 0, 1) !important;
+    box-shadow: 1px 0px 19px 0px #000;
+    margin-top: -12px !important;
+}
 /* logo style */
 .navbar-brand{
 	width: 10%;
@@ -496,7 +504,10 @@ nav{
 	color: rgb(150, 166, 174);
 }
 .about-article-para{
-	font-size: 11px;
+	font-size: 12px;
+}
+.line-height-about{
+	line-height: 32px;
 }
 /* style for counter section */
 .show-project-num {
@@ -679,6 +690,82 @@ nav{
 
 
 
+/*==============css for index 02 page of second home page index02.html==============*/
+
+.para-head-indexSecondary{
+	font-size: 17px;
+}
+.col-head-indexSecondary{
+	margin-top: 165px;
+}
+.indexSec-row-head-img{
+	height: 100%;
+  	background-image: url(../img/index02.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	position: relative;
+    overflow: hidden;
+}
+.para-firstSection-indexSecondary{
+	color: #808080;
+	font-size: 14px;
+	clear: both;
+}
+.footer-para-indexSecondary{
+	line-height: 25px;
+    font-size: 13px
+}
+.btn-grad {
+	background-image: linear-gradient(to right, #f56043 0%, #f19732 51%, #f56043 100%);
+    padding: 15px 37px;
+    margin-bottom: 12%;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: block;
+    width: 230px;
+}
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.anchor-firstSection:hover{
+	color: #073566;
+}
+.btn-footer-indexSecondary{
+	padding: 13px 28px !important;
+}
+.li-style{
+	height: 30px;
+}
+.li-style>a{
+	font-size: 13px;
+	text-decoration: none !important;
+}
+.li-style>a:hover{
+	color: #464545!important;
+}
+.footer-socialicon{
+	width: 37px;
+    background: #f1efef;
+    padding: 11px 13px;
+    border-radius: 50%;
+    border: 1px solid #aad7eb;
+}
+.footer-socialicon:hover{
+	background-color: blue;
+	color: white;
+	border: 1px solid blue;
+}
+.underline-bar-indexSecondary{
+	width: 17%;
+	background-color: rgb(33, 130, 178);
+	height: 5px;
+	float: left;
+}
+
+
 
 
 
@@ -723,6 +810,13 @@ nav{
     background-color: rgb(255, 255, 255);
     z-index: 1;
 }
+.col-head-indexSecondary{
+	margin-top: 20px;
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
 
 }
 
@@ -762,6 +856,9 @@ nav{
     width: 1px;
     background-color: rgb(255, 255, 255);
     z-index: 1;
+}
+.col-head-indexSecondary{
+	margin-top: 20px;
 }
 
 }
