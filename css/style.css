@@ -610,9 +610,7 @@ nav{
     height: 2px;
     float: left;
 }
-/*.wrapper-counter{
-	width: 100%;
-}*/
+
 
 /*contact css*/
 .contact-icon{
@@ -859,7 +857,9 @@ footer{
 .head-heading-fontsize{
 	font-size: 35px;
 }
-
+.head-row-content {
+    padding-top: 120px;
+}
 
 }
 
