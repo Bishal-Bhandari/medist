@@ -18,12 +18,12 @@ $(document).ready(function () {
     }
     else {
       if (scroll > 80) {
-        $(".navbar").css("background", "rgb(34, 130, 178)");
+        $(".navbar").css("background", "#fff");
         $(".navbar").css("box-shadow", "rgb(195, 193, 193) 0px 0px 15px");
       }
 
       else {
-        $(".navbar").css("background", "rgb(34, 130, 178)");
+        $(".navbar").css("background", "#fff");
         $(".navbar").css("box-shadow", "none");
         $(".nav-link-strong").css("color", "rgb(7, 53, 102)");
       }

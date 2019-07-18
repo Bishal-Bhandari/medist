@@ -818,7 +818,9 @@ nav{
 .nav-link-strong-head-indexSecondary:hover{
 	color: #0c2c4e;
 }
-
+.img-header-indexSecondary{
+	margin: 130px 0px 0px 50px;
+}
 
 
 
@@ -833,7 +835,13 @@ nav{
 	background-color: #fff;
 	}
 .nav-index02{
-	background-color: rgb(34, 130, 178);
+	background-color: #fff;
+}
+.nav-link-strong-head-indexSecondary{
+	color: rgb(7, 53, 102);
+}
+.nav-link-strong-head-indexSecondary:hover{
+	color: #0c2c4e;
 }
 .popup-form-col{
 	margin: 1px 0px;
@@ -896,7 +904,13 @@ nav{
 	background-color: #fff;
 	}
 	.nav-index02{
-	background-color: rgb(34, 130, 178);;
+	background-color: #fff;
+}
+.nav-link-strong-head-indexSecondary{
+	color: rgb(7, 53, 102);
+}
+.nav-link-strong-head-indexSecondary:hover{
+	color: #0c2c4e;
 }
 .popup-form-col{
 	margin: 1px 0px;
