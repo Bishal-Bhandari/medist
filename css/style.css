@@ -185,9 +185,10 @@ nav{
 	overflow: hidden;
 	border-radius:53% 46% 52% 51% / 0% 0% 61% 58%; 
 }
+
  /* index head heading */
 .head-row-content{
-	padding-top: 160px;
+	padding-top: 120px;
 }
 .head-heading-top{
 	color: var(--head-heading-top);
@@ -874,11 +875,16 @@ nav{
 footer{
 	text-align: center;
 }
-.head-heading-fontsize{
-	font-size: 35px;
-}
 .head-row-content {
     padding-top: 120px;
+}
+.head-heading-fontsize {
+    font-size: 30px;
+}
+.head-heading-fontsize-top {
+    font-size: 2.30rem;
+    font-weight: 300;
+    line-height: 1.2;
 }
 
 }
