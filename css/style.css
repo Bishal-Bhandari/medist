@@ -726,7 +726,6 @@ nav{
 
 
 /*==============css for index 02 page of second home page index02.html==============*/
-
 .para-head-indexSecondary{
 	font-size: 17px;
 }
@@ -816,7 +815,7 @@ nav{
 	color:#fff;
 }
 .nav-link-strong-head-indexSecondary:hover{
-	color: #0c2c4e;
+	color: #d1d6db;
 }
 .img-header-indexSecondary{
 	margin: 130px 0px 0px 50px;
