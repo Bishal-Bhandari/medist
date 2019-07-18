@@ -1,0 +1,133 @@
+
+body {
+  line-height: 30px !important; 
+}
+.font{
+  font-family: 'Ubuntu', sans-serif;
+}
+section{
+  padding-top: 80px;
+}
+.wrapper{
+    padding: 10px 10px 0px 10px;
+    color: #444;
+}
+.navbar{
+    z-index: 1;
+    position: absolute !important;
+    width: 100%;
+}
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  .clickable {
+    cursor: pointer;
+  }
+  .mobile{
+        height: 45px;
+    line-height: 50px;
+  }
+/*a{
+    color: #888 !important;
+}*/
+.nav-col {
+    position: relative;
+}
+.nav-position{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.nav-link:visited{ 
+  color: pink;
+}
+.div-content{
+    margin-left: 25%;
+    z-index: 2;
+}
+.banner{
+width: 100%;
+height: 250px;
+background-color: #638bff;
+}
+.footer{
+  background-color: #638bff;
+  padding-bottom: 10px;
+}
+.text-top {
+    width: 90%;
+    left: 4%;
+    top: 15%;
+    z-index:1;
+    position: absolute;
+}
+@media only screen and (min-width: 765px) and (max-width: 992px) {
+  .div-content{
+    margin-left: 13%;
+  }
+  .nav-position{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+}
+.text-top {
+    width: 90%;
+    left: 4%;
+    top: 5%;
+    z-index:1;
+    position: absolute;
+}
+}
+/*navbar burger*/
+.Navbar{
+  background-color: #fff !important;
+  color: #222;
+  width: 100%;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #222;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #000;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media only screen and (min-width: 200px) and (max-width: 765px) {
+  .div-content{
+    margin-left: 0%;
+  }}
