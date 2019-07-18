@@ -33,7 +33,9 @@
 .font{
 	font-family: 'Merriweather Sans', sans-serif;
 }
-
+.font-index02{
+	font-family: 'Open Sans', sans-serif;
+}
 .heading-font-size{
 	font-size: 35px;
 }
@@ -786,9 +788,9 @@ nav{
     border: 1px solid #aad7eb;
 }
 .footer-socialicon:hover{
-	background-color: blue;
+	background-color: #122e4e;
 	color: white;
-	border: 1px solid blue;
+	border: 1px solid #122e4e;
 }
 .underline-bar-indexSecondary{
 	width: 17%;
@@ -796,14 +798,25 @@ nav{
 	height: 5px;
 	float: left;
 }
-
-.head-heading-fontsize{
-	font-size: 3.5rem;
+.footer-link-brandname{
+	color:#122e4e;
+}
+.head-heading-fontsize-top{
+	font-size: 3rem;
 	font-weight: 300;
     line-height: 1.2;
 }
-
-
+.head-heading-fontsize{
+	font-size: 2rem;
+	font-weight: 300;
+    line-height: 1.2;
+}
+.nav-link-strong-head-indexSecondary{
+	color:#fff;
+}
+.nav-link-strong-head-indexSecondary:hover{
+	color: #0c2c4e;
+}
 
 
 
@@ -814,6 +827,9 @@ nav{
 nav{
 	background-color: #fff;
 	}
+.nav-index02{
+	background-color: rgb(34, 130, 178);
+}
 .popup-form-col{
 	margin: 1px 0px;
 
@@ -869,6 +885,9 @@ footer{
 nav{
 	background-color: #fff;
 	}
+	.nav-index02{
+	background-color: rgb(34, 130, 178);;
+}
 .popup-form-col{
 	margin: 1px 0px;
 
