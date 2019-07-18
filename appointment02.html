@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Appointment</title>
+	<!-- Icon -->
+	<link rel="icon" type="image/png" href="img/icon.png">
+	<!-- Style.css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<!-- JS CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- font family -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<!-- CDN for Animation -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+
+<body class="font line-height">
+	<div style="overflow-x: hidden;">
+		<!--===== head section =====-->
+		<section id="head" class="container-fluid mb-4 pb-3 px-0 service-head-section">
+
+			<!--Navbar -->
+			<nav class="mb-1 navbar navbar-expand-lg navbar-light ">
+				<a class="navbar-brand d-none d-lg-block" href="index.html"><img class="brand-img m-0"
+						src="img/brand-light.png" width="115px"></a>
+				<!-- small view -->
+				<a class="navbar-brand d-block d-lg-none" href="index.html"><img class="brand-img m-0"
+						src="img/brand-dark.png" width="115px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent-333"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto float-left">
+						<li class="nav-item mx-3 dropdown">
+					        <a class="nav-link text-uppercase small" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong
+									class="nav-link-strong">
+					          Home&nbsp;&nbsp;<i class="fas fa-angle-down"></i></strong>
+					        </a>
+					        
+					        <div class="dropdown-menuu" aria-labelledby="navbarDropdown">
+					        	<div class="nav-anchor-block">
+					          <a class="nav-link text-uppercase small" href="index.html"><strong
+									class=" text-color-dropdown ">Home page 01</strong></a>
+								</div>
+								<div class="nav-anchor-block">
+					          <a class="nav-link text-uppercase small" href="index02.html"><strong
+									class=" text-color-dropdown ">Home page 02</strong></a>
+								</div>
+					        </div>
+					       
+					     </li>
+						<li class="nav-item active mr-lg-3 mx-3">
+							<a class="nav-link text-uppercase small" href="service.html"><strong
+									class="nav-link-strong">Service</strong></a>
+						</li>
+						<li class="nav-item mx-3">
+							<a class="nav-link text-uppercase small" href="doctors.html"><strong
+									class="nav-link-strong">Doctors</strong></a>
+						</li>
+						<li class="nav-item mx-3 dropdown">
+					        <a class="nav-link text-uppercase small" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong
+									class="nav-link-strong">
+					          Appointments&nbsp;&nbsp;<i class="fas fa-angle-down"></i></strong>
+					        </a>
+					        
+					        <div class="dropdown-menuu" aria-labelledby="navbarDropdown">
+					        	<div class="nav-anchor-block">
+					          <a class="nav-link text-uppercase small trigger-popup-div" href="#"><strong
+									class=" text-color-dropdown ">Appointments 01</strong></a>
+								</div>
+								<div class="nav-anchor-block">
+					          <a class="nav-link text-uppercase small" href="appointment02.html"><strong
+									class=" text-color-dropdown ">Appointments 02</strong></a>
+								</div>
+					        </div>
+					       
+					     </li>
+						<li class="nav-item mx-3">
+							<a class="nav-link text-uppercase small trigger-popup-div" href="#"><strong
+									class="nav-link-strong">Appointments</strong></a>
+						</li>
+						<li class="nav-item mx-3">
+							<a class="nav-link text-uppercase small" href="about.html"><strong
+									class="nav-link-strong">About</strong></a>
+						</li>
+						<li class="nav-item mx-3">
+							<a class="nav-link text-uppercase small" href="contact.html"><strong
+									class="nav-link-strong">Contact</strong></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!--/.Navbar -->
+			<div class="row mx-0 head-row-content service-head-img">
+				<div class="col-12 pl-3 pt-3 pl-lg-5 ml-lg-5">
+					<h3 class="display-3 pt-3 service-heading-top">Appointment</h3>
+					<hr class="underline-bar ml-0 mt-0">
+					<p class="para-service mt-3 mb-3 pb-5 w-75 d-none d-lg-block">Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+						adipiscing
+						elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p class="para-service mt-2 mb-3 d-lg-none d-block">Lorem ipsum dolor sit amet, consectetur adipiscing
+						elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+						adipiscing
+						elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</section>
+
+		
+		<!--===== Appointment form ======-->
+		<section id="#" class="container-fluid px-2 py-5 appointments">
+					<form id="contactForm" method="post" class="form px-2" role="form">
+						<div class="row">
+
+							<div class="col-lg-8 col-sm-12 py-4 px-lg-4">
+								<h5 class="display-5 popup-form-heading-left">Book an Appointment.</h5>
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="fname" class="">Full Name</label>
+										<input type="text" class="form-control" id="fname" required>
+									</div>
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="email" class="">Email Address</label>
+										<input type="email" class="form-control" id="email" required>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="number" class="">Phone Number</label>
+										<input type="text" class="form-control" id="number" required>
+									</div>
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="zipcode" class="">Zip Code</label>
+										<input type="text" class="form-control" id="zipcode">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="fdate" class="">Date & Time <span class="small">(1st
+												Preference)</span></label>
+										<input type="text" class="form-control" id="fdate"
+											placeholder="DD/MM/YYYY-HH:MM" required>
+									</div>
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="ldate" class="">Date & Time <span class="small">(2nd
+												Preference)</span></label>
+										<input type="text" class="form-control" placeholder="DD/MM/YYYY-HH:MM"
+											id="ldate">
+									</div>
+								</div>
+								<div class="row mt-3">
+									<input type="submit" value="Send"
+										class="btn btn-info mx-auto contact-send-btn text-uppercase text-center">
+									<!-- <button type="button"
+											class="btn btn-info popup-div-close-btn ml-auto mr-3">Close</button> -->
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-12 py-4 px-lg-4 d-lg-block d-none popup-main-col-right">
+								<h5 class="display-5 popup-form-heading-right ">Get in touch.</h5>
+								<div class="row my-5">
+									<div class="col-lg-4 col-sm-12">
+										<span class="iconify appointment-popup-icon"
+											data-icon="simple-line-icons:screen-smartphone" data-inline="false"></span>
+									</div>
+									<div class="col-lg-8 col-sm-12">
+										<p class="text-uppercase text-white ">Phone</p>
+										<p class="text-white ">+977-9851xxxxxx</p>
+									</div>
+								</div>
+								<div class="row mt-5">
+									<div class="col-lg-4 col-sm-12">
+										<span class="iconify appointment-popup-icon" data-icon="mdi-light:email"
+											data-inline="false"></span>
+									</div>
+									<div class="col-lg-8 col-sm-12">
+										<p class="text-uppercase text-white">Email</p>
+										<p class="text-white">support@onaircode.com</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</form>
+		</section>
+
+
+		<!--===== footer =====-->
+		<footer id="footer">
+			<div class="row in-circle mx-0 px-0"></div>
+			<div class="row text-center">
+				<div class="col-lg-2">
+					<!-- got large view -->
+					<a class="nav-link small footer-brand d-lg-block d-none" href="#"><img class="brand-img m-0" src="img/brand-dark.png"
+							width="115px"></a>
+					<!-- for sm view -->
+					<a class="nav-link small d-block d-lg-none" href="#"><img class="brand-img" src="img/brand-dark.png"
+							width="115px"></a>
+
+				</div>
+				<div class="col-lg-6">
+					<ul class="list-inline text-center">
+						<li class="list-inline-item">
+							<a class="nav-link small" href="index.html"><strong
+									class="nav-link-strong-footer">Home</strong></a>
+						</li>
+						<li class="list-inline-item">
+							<a class="nav-link small" href="service.html"><strong
+									class="nav-link-strong-footer">Service</strong></a>
+						</li>
+						<li class="list-inline-item">
+							<a class="nav-link small" href="doctors.html"><strong
+									class="nav-link-strong-footer">Doctors</strong></a>
+						</li>
+						<li class="list-inline-item">
+							<a class="nav-link small trigger-popup-div" href="#"><strong
+									class="nav-link-strong-footer">Appointments</strong></a>
+						</li>
+						<li class="list-inline-item">
+							<a class="nav-link small" href="about.html"><strong
+									class="nav-link-strong-footer">About</strong></a>
+						</li>
+						<li class="list-inline-item">
+							<a class="nav-link small" href="contact.html"><strong
+									class="nav-link-strong-footer">Contact</strong></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-4">
+					<ul class="list-inline text-center">
+						<li class="list-inline-item">
+							<a class="nav-link small" href="#"><i class="fab fa-facebook-f footer-icon"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a class="nav-link small" href="#"><i class="fab fa-twitter footer-icon"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a class="nav-link small" href="#"><i class="fab fa-linkedin-in footer-icon"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a class="nav-link small" href="#"><i class="fab fa-instagram footer-icon"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<!-- for lg view -->
+					<div class="text-dark ml-5 pl-5 d-none d-lg-block copy-right-footer">2019 &copy; All rights reserved by
+                        <a href="https://pacificsofttech.com" class="nav-link d-inline pl-0">Pacific SoftTech</a>
+                    </div>
+                    <!-- for sm view -->
+                    <div class="text-center text-dark d-lg-none d-block copy-right-footer">2019 &copy; All rights reserved by
+                        <a href="https://pacificsofttech.com" class="nav-link d-inline pl-0">Pacific SoftTech</a>
+                    </div>
+				</div>
+			</div>
+		</footer>
+
+
+		<!--===== pop up  =====-->
+		<div class="popup-div">
+			<span class="helper"></span>
+			<div>
+				<div class="popupCloseButton">X</div>
+				<!--===== contact form ======-->
+				<section id="appointments" class="container-fluid px-0 appointments">
+					<form id="contactForm" method="post" class="form px-2" role="form">
+						<div class="row">
+
+							<div class="col-lg-8 col-sm-12 py-4 px-lg-4">
+								<h5 class="display-5 popup-form-heading-left">Book an Appointment.</h5>
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="fname" class="">Full Name</label>
+										<input type="text" class="form-control" id="fname" required>
+									</div>
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="email" class="">Email Address</label>
+										<input type="email" class="form-control" id="email" required>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="number" class="">Phone Number</label>
+										<input type="text" class="form-control" id="number" required>
+									</div>
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="zipcode" class="">Zip Code</label>
+										<input type="text" class="form-control" id="zipcode">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="fdate" class="">Date & Time <span class="small">(1st
+												Preference)</span></label>
+										<input type="text" class="form-control" id="fdate"
+											placeholder="DD/MM/YYYY-HH:MM" required>
+									</div>
+									<div class="col-lg-6 col-sm-12 popup-form-col">
+										<label for="ldate" class="">Date & Time <span class="small">(2nd
+												Preference)</span></label>
+										<input type="text" class="form-control" placeholder="DD/MM/YYYY-HH:MM"
+											id="ldate">
+									</div>
+								</div>
+								<div class="row mt-3">
+									<input type="submit" value="Send"
+										class="btn btn-info mx-auto contact-send-btn text-uppercase text-center">
+									<!-- <button type="button"
+											class="btn btn-info popup-div-close-btn ml-auto mr-3">Close</button> -->
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-12 py-4 px-lg-4 d-lg-block d-none popup-main-col-right">
+								<h5 class="display-5 popup-form-heading-right ">Get in touch.</h5>
+								<div class="row my-5">
+									<div class="col-lg-4 col-sm-12">
+										<span class="iconify appointment-popup-icon"
+											data-icon="simple-line-icons:screen-smartphone" data-inline="false"></span>
+									</div>
+									<div class="col-lg-8 col-sm-12">
+										<p class="text-uppercase text-white ">Phone</p>
+										<p class="text-white ">+977-9851xxxxxx</p>
+									</div>
+								</div>
+								<div class="row mt-5">
+									<div class="col-lg-4 col-sm-12">
+										<span class="iconify appointment-popup-icon" data-icon="mdi-light:email"
+											data-inline="false"></span>
+									</div>
+									<div class="col-lg-8 col-sm-12">
+										<p class="text-uppercase text-white">Email</p>
+										<p class="text-white">support@onaircode.com</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+		<!--===== pop up ======-->
+
+
+	</div>
+	<script type="text/javascript">
+		AOS.init({
+			duration: 1200,
+			once: true
+		})
+	</script>
+	<script src="https://code.iconify.design/1/1.0.2/iconify.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+	<script type="text/javascript" src="script/changeLogo.js"></script>
+	<script type="text/javascript" src="script/popUp.js"></script>
+</body>
+
+</html>
